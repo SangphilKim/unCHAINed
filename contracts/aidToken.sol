@@ -35,7 +35,7 @@ contract Token {
 
     event Transfer(address indexed _from, address indexed _to, uint256 _value);
     event Approval(address indexed _owner, address indexed _spender, uint256 _value);
-    
+
 }
 
 
@@ -102,11 +102,11 @@ contract aidToken is StandardToken {
 
     function aidToken(
         ) {
-        balances[msg.sender] = 100000000000000000000000;               
-        totalSupply = 100000000000000000000000;                        
-        name = "aidToken";                                   
-        decimals = 18;                            
-        symbol = "AID";                               
+        balances[msg.sender] = 100000000000000000000000;
+        totalSupply = 100000000000000000000000;
+        name = "aidToken";
+        decimals = 18;
+        symbol = "AID";
     }
 
     /* Approves and then calls the receiving contract */
