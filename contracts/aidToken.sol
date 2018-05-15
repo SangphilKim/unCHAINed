@@ -1,9 +1,9 @@
-pragma solidity ^0.4.4;
+pragma solidity ^0.4.20;
 
 import "./StandardToken.sol";
 
 //name this contract whatever you'd like
-contract aidToken is StandardToken {
+contract AidToken is StandardToken {
 
     function () {
         //if ether is sent to this address, send it back.
